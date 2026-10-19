@@ -1,6 +1,6 @@
-# Orion-RE architecture
+# Zama-RE architecture
 
-Native Jetpack Compose port of the Capacitor Orion Store (`Orion Legacy/`). Single activity, MVVM, Material 3 Expressive.
+Native Jetpack Compose port of the Capacitor Zama Store (`Orion Legacy/`). Single activity, MVVM, Material 3 Expressive.
 
 ## Stack
 
@@ -20,10 +20,10 @@ Native Jetpack Compose port of the Capacitor Orion Store (`Orion Legacy/`). Sing
 
 ```
 MainActivity  splash, edge-to-edge, ResultHost, notification permission, deep links, refresh rate
-  └─ OrionRoot(vm)                 ui/Root.kt      theme, gate, nav bar, tab host, overlay host
+  └─ ZamaRoot(vm)                 ui/Root.kt      theme, gate, nav bar, tab host, overlay host
        ├─ routes = VM state        vm.tab, vm.selectedApp, vm.overlays
        ├─ CompositionLocals        LocalVm, LocalS (Settings), LocalD (DataState)
-       └─ overlays = OrionSheet    ModalBottomSheet; LocalSheetClose for animated button dismiss
+       └─ overlays = ZamaSheet    ModalBottomSheet; LocalSheetClose for animated button dismiss
 MainViewModel  ui/MainViewModel.kt  port of App.tsx orchestration
   ├─ Store.settings / Store.data    Persisted<T> (zustand persist equivalents, AtomicFile JSON)
   ├─ Repository / CatalogProcessor  catalog, config, mirrors, cache

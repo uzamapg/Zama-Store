@@ -9,10 +9,10 @@ plugins {
 val keystore = rootProject.file("keystore.properties").takeIf { it.exists() }?.let { f -> Properties().apply { f.inputStream().use(::load) } }
 
 android {
-    namespace = "com.orion.store"
+    namespace = "com.zama.store"
     compileSdk = 37
     defaultConfig {
-        applicationId = "com.orion.store"
+        applicationId = "com.zama.store"
         minSdk = 24
         targetSdk = 36
         versionCode = 27
@@ -40,9 +40,9 @@ android {
     }
     buildFeatures { compose = true; buildConfig = true; aidl = false }
     packaging {
-        // Orion ships as a GitHub download, so the download size wins over install-time extraction of the .so files
+        // Zama ships as a GitHub download, so the download size wins over install-time extraction of the .so files
         jniLibs.useLegacyPackaging = true
-        // BouncyCastle data for algorithms Orion never touches (post-quantum Picnic tables, PKIX reviewer messages)
+        // BouncyCastle data for algorithms Zama never touches (post-quantum Picnic tables, PKIX reviewer messages)
         resources.excludes += listOf("org/bouncycastle/pqc/**", "org/bouncycastle/x509/CertPathReviewerMessages*", "org/bouncycastle/pkix/CertPathReviewerMessages*")
     }
     testOptions.unitTests.isIncludeAndroidResources = true
@@ -86,7 +86,7 @@ configurations.configureEach { if (name.endsWith("UnitTestRuntimeClasspath")) ex
 
 tasks.withType<Test>().configureEach {
     systemProperty("roborazzi.test.record", "true")
-    systemProperty("orion.shots", providers.gradleProperty("shots").getOrElse(""))
+    systemProperty("zama.shots", providers.gradleProperty("shots").getOrElse(""))
 }
 
 kotlin {

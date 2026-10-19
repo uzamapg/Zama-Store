@@ -1,17 +1,17 @@
-# Orion Store 2.0.0 · Orion-RE: Native at Last 🚀
+# Zama Store 2.0.0 · Zama-RE: Native at Last 🚀
 
-Orion Store has been **rebuilt from the ground up as a fully native Android app**. The web app you knew has been rewritten in Kotlin and Jetpack Compose, with a brand new engine, a brand new design language and a long list of features that were never possible before.
+Zama Store has been **rebuilt from the ground up as a fully native Android app**. The web app you knew has been rewritten in Kotlin and Jetpack Compose, with a brand new engine, a brand new design language and a long list of features that were never possible before.
 
-Same Orion. Brand new engine.
+Same Zama. Brand new engine.
 
-> **Updating from 1.x?** Just install 2.0.0 over your current Orion Store. It updates in place, and your profile, XP, badges, favorites and settings come along automatically.
+> **Updating from 1.x?** Just install 2.0.0 over your current Zama Store. It updates in place, and your profile, XP, badges, favorites and settings come along automatically.
 
 ---
 
 ## 🧬 The New Engine
 
-* **100% Native:** No web view in sight. Orion now runs on **Kotlin + Jetpack Compose** in a single-activity architecture, so scrolling, launching and navigating feel instant.
-* **Material 3 Expressive:** Orion is one of the first stores built on Google's newest design system: expressive spring motion, shape morphing, emphasized typography, wavy progress indicators, the new loading indicator and connected button groups.
+* **100% Native:** No web view in sight. Zama now runs on **Kotlin + Jetpack Compose** in a single-activity architecture, so scrolling, launching and navigating feel instant.
+* **Material 3 Expressive:** Zama is one of the first stores built on Google's newest design system: expressive spring motion, shape morphing, emphasized typography, wavy progress indicators, the new loading indicator and connected button groups.
 * **Native Networking:** A rewritten catalog engine on OkHttp 5 with mirrors and smart caching, so the store loads fast and keeps working on weak connections.
 * **Native Images:** Coil 3 image pipeline with disk caching and screenshot prefetching, so detail pages paint from cache instead of the network.
 * **Native Downloads:** A foreground download engine with live progress notifications, a persistent queue and downloads that survive app restarts.
@@ -48,27 +48,27 @@ Same Orion. Brand new engine.
 ## 📱 App Details
 
 * **Redesigned Detail Page:** Big header, quick stats, screenshots at their natural aspect ratio and a clean "About this app" section.
-* **Version Picker with Device Detection:** Orion reads your device architecture and recommends the right APK for you.
+* **Version Picker with Device Detection:** Zama reads your device architecture and recommends the right APK for you.
 * **Ignore Updates:** Hide an update for a week, until the next version, or for good. Changed your mind? One tap on the bell brings it back.
 * **VirusTotal Scan:** Scan any APK before you install it.
-* **Share & Deep Links:** Share any app, and open apps straight from `orionstore://app/` links.
+* **Share & Deep Links:** Share any app, and open apps straight from `zamastore://app/` links.
 
 ---
 
 ## ⚡ Skip the 24-Hour Wait
 
-Android now asks users to wait 24 hours before installing apps from unverified developers. Google left one route open: ADB. Orion makes that route simple for everyone.
+Android now asks users to wait 24 hours before installing apps from unverified developers. Google left one route open: ADB. Zama makes that route simple for everyone.
 
-* **Built-In Wireless Install:** Orion includes its own wireless ADB client. Installs run through the same path as `adb install`, so they skip the wait. **No Shizuku and no computer needed.**
+* **Built-In Wireless Install:** Zama includes its own wireless ADB client. Installs run through the same path as `adb install`, so they skip the wait. **No Shizuku and no computer needed.**
 * **One Setting, One-Time Setup:** Turn on **Skip the 24-hour wait** and follow a guided setup.
 * **Guided From the Notification Shade:** A step-by-step notification walks you through unlocking Developer options, turning on Wireless debugging and pairing. It moves on by itself as each switch flips, and you type the pairing code right into the notification.
-* **Set Once, Works After Reboots:** After pairing, Orion turns Wireless debugging back on by itself whenever it needs to install.
-* **Always Ready:** Orion connects in the background while your download runs, so the install starts the moment it finishes. If Wireless debugging cannot be reached, you can fall back to the regular installer with one tap.
+* **Set Once, Works After Reboots:** After pairing, Zama turns Wireless debugging back on by itself whenever it needs to install.
+* **Always Ready:** Zama connects in the background while your download runs, so the install starts the moment it finishes. If Wireless debugging cannot be reached, you can fall back to the regular installer with one tap.
 * **Update All:** Batch-install every ready update in one go.
 
 ---
 
-## 🛡️ Orion Xtra
+## 🛡️ Zama Xtra
 
 * **Guardian, Redesigned:** Three tools in one, switched with a connected button group.
   * **Perms:** Spot apps with risky permissions and revoke them. Risk shows through color *and* shape.
@@ -81,7 +81,7 @@ Android now asks users to wait 24 hours before installing apps from unverified d
 
 ## 🗂️ My Apps
 
-* **Your Library:** Every app you got through Orion, with filters for All, Installed, Downloaded and Updates.
+* **Your Library:** Every app you got through Zama, with filters for All, Installed, Downloaded and Updates.
 * **Download Queue:** Active downloads, ready installs and pending updates in one place.
 * **Ignored Updates:** A dedicated section lists every ignored update with how long it is hidden, and an **Unignore** button.
 * **Janitor:** Clean up installed APKs automatically or with one tap.
@@ -102,7 +102,7 @@ Android now asks users to wait 24 hours before installing apps from unverified d
 
 ## 🔥 Fuel the Code · Chapter 2: The Forkening
 
-Entropy is gone, but its last breath split Orion into a thousand rogue forks. A new story begins for everyone who finished Chapter 1.
+Entropy is gone, but its last breath split Zama into a thousand rogue forks. A new story begins for everyone who finished Chapter 1.
 
 * **26 New Story Cards:** From the Branch Maze and the Dependency Swamp to the Abyss of Legacy and the Null Throne.
 * **Three New Bosses, Three New Badges:**
@@ -117,7 +117,7 @@ Entropy is gone, but its last breath split Orion into a thousand rogue forks. A 
 ## 🤝 Community
 
 * **Cleaner Submissions:** A slim, focused submission form with live step progress. **From repo** (GitHub, GitLab, Codeberg) is now the default, with Obtainium import one tap away.
-* **Smart Repo Detection:** Paste a repo link and Orion fills in the name, description and package name for you.
+* **Smart Repo Detection:** Paste a repo link and Zama fills in the name, description and package name for you.
 * **Custom Bundles:** Create your own app bundles and submit them.
 * **Leaderboard:** Your level and XP, straight from the new level system.
 
@@ -138,16 +138,16 @@ Entropy is gone, but its last breath split Orion into a thousand rogue forks. A 
 * **Dino Run:** The classic runner, built in, with badges for high scores.
 * **Maintenance Mode, Redesigned:** A calm one-screen page with a shape-shifting Dino hero you can tap to play while you wait.
 * **Splash Screen:** An animated splash with a quiet **RE** mark on Android 12 and newer.
-* **Welcome to RE:** A one-time animated welcome that introduces the new native Orion.
-* **Orion on the Web:** Visit [orionstore.pages.dev](https://orionstore.pages.dev), now linked right from the About tab.
+* **Welcome to RE:** A one-time animated welcome that introduces the new native Zama.
+* **Zama on the Web:** Visit [github.com/uzamapg/Zama-Store](https://github.com/uzamapg/Zama-Store), now linked right from the About tab.
 * **Developer Tools:** Unlock developer mode and find every debug tool in **Settings › Developer**.
 
 ---
 
 ## 📦 Install
 
-* Download **Orion-Store-2.0.0.apk** below and install it.
-* **Updating from 1.x:** Install it right over your current Orion Store. Your data comes with you.
+* Download **Zama-Store-2.0.0.apk** below and install it.
+* **Updating from 1.x:** Install it right over your current Zama Store. Your data comes with you.
 * **Requires:** Android 7.0 or newer. Skip the 24-hour wait requires Android 11 or newer and Wi-Fi.
 
 ---

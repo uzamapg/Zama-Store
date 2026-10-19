@@ -1,18 +1,25 @@
 <p align="center">
-  <img src="assets/orion_logo_512.png" width="310" alt="Orion Store logo">
+  <img src="assets/orion_logo_512.png" width="310" alt="Zama Store logo">
 </p>
 
 
-<h1 align="center">Orion Store</h1>
+<h1 align="center">Zama Store</h1>
 
 <p align="center">
-  <a href="https://github.com/RookieEnough/Orion-Store/stargazers"><img src="https://img.shields.io/github/stars/RookieEnough/Orion-Store?logo=github&color=yellow" alt="Stars"></a>
-  <a href="https://github.com/RookieEnough/Orion-Store/network/members"><img src="https://img.shields.io/github/forks/RookieEnough/Orion-Store?logo=github&color=orange" alt="Forks"></a>
+  <a href="https://github.com/uzamapg/Zama-Store/stargazers"><img src="https://img.shields.io/github/stars/uzamapg/Zama-Store?logo=github&color=yellow" alt="Stars"></a>
+  <a href="https://github.com/uzamapg/Zama-Store/network/members"><img src="https://img.shields.io/github/forks/uzamapg/Zama-Store?logo=github&color=orange" alt="Forks"></a>
 </p>
 
 <p align="center">
   A transparent app store built around public releases, inspectable metadata, and automation you can actually follow.<br>
   <strong>Now fully native.</strong>
+</p>
+
+<p align="center">
+  <em>Rebranded fork of <a href="https://github.com/RookieEnough/Orion-Store">RookieEnough/Orion-Store</a>.
+  The app, catalog and automation are the original project's work; this fork renames the store to Zama,
+  points the catalog at <a href="https://github.com/uzamapg/Zama-Data">uzamapg/Zama-Data</a> and builds its own signed APKs.
+  Original author credit and license are unchanged.</em>
 </p>
 
 <p align="center">
@@ -33,14 +40,14 @@
 <br>
 
 <p align="center">
-  <a href="https://github.com/RookieEnough/Orion-Store/releases">
-    <img src="https://img.shields.io/github/v/release/RookieEnough/Orion-Store?style=for-the-badge&logo=github&label=Version&color=6366f1" alt="Latest Version">
+  <a href="https://github.com/uzamapg/Zama-Store/releases">
+    <img src="https://img.shields.io/github/v/release/uzamapg/Zama-Store?style=for-the-badge&logo=github&label=Version&color=6366f1" alt="Latest Version">
   </a>
-  <a href="https://github.com/RookieEnough/Orion-Store/releases">
-    <img src="https://img.shields.io/github/downloads/RookieEnough/Orion-Store/total?style=for-the-badge&logo=cloud&label=Downloads&color=10b981" alt="Total Downloads">
+  <a href="https://github.com/uzamapg/Zama-Store/releases">
+    <img src="https://img.shields.io/github/downloads/uzamapg/Zama-Store/total?style=for-the-badge&logo=cloud&label=Downloads&color=10b981" alt="Total Downloads">
   </a>
-  <a href="https://orionstore.pages.dev">
-    <img src="https://img.shields.io/badge/Website-orionstore.pages.dev-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
+  <a href="https://github.com/uzamapg/Zama-Store">
+    <img src="https://img.shields.io/badge/Website-GitHub-6366f1?style=for-the-badge&logo=github&logoColor=white" alt="Website">
   </a>
 </p>
 
@@ -53,11 +60,11 @@
 
 <br>
 <p align="center">
-<a href="https://trendshift.io/repositories/15654?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-15654" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/15654/daily?language=TypeScript" alt="RookieEnough%2FOrion-Store | Trendshift" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/15654?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-15654" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/15654/daily?language=TypeScript" alt="uzamapg%2FZama-Store | Trendshift" width="250" height="55"/></a>
 </p>
 
 <details>
-<summary><b>🔍 Orion does not have any trackers!</b></summary>
+<summary><b>🔍 Zama does not have any trackers!</b></summary>
 
 Saw a few people asking about the 5 "trackers" flagged in App Manager or TrackerControl, so wanted to clear up what those actually are.
 
@@ -72,7 +79,7 @@ Saw a few people asking about the 5 "trackers" flagged in App Manager or Tracker
 
 It is 1 single ad library split across its rendering components, not 5 separate tracking networks.
 
-**How it works in Orion:**
+**How it works in Zama:**
 
 - It only ever touches memory if you explicitly tap to watch a rewarded video in the "Fuel the Code" quest for XP.
 - There are zero background services, no banner ads, and no user data collected or sent anywhere.
@@ -80,19 +87,19 @@ It is 1 single ad library split across its rendering components, not 5 separate 
 
 </details>
 
-## Orion Store 2.0 · Native at last :rocket:
+## Zama Store 2.0 · Native at last :rocket:
 
-Orion Store has been **rebuilt from the ground up as a native Android app**. The web app has been rewritten in Kotlin and Jetpack Compose on **Material 3 Expressive**, with spring motion, shape morphing, a new storefront and features that were never possible before. Updating from 1.x is a normal install over the old app, and your profile, XP, badges, favorites and settings come along.
+Zama Store has been **rebuilt from the ground up as a native Android app**. The web app has been rewritten in Kotlin and Jetpack Compose on **Material 3 Expressive**, with spring motion, shape morphing, a new storefront and features that were never possible before. Updating from 1.x is a normal install over the old app, and your profile, XP, badges, favorites and settings come along.
 
 Read the full [2.0.0 release notes](RELEASE_NOTES_2.0.0.md).
 
 ## Overview :milky_way:
 
-Orion Store is an Android-first store client that leans on public sources instead of hiding everything behind a private service layer. The app pulls catalog data from public JSON, resolves releases from GitHub, GitLab, and Codeberg, and keeps the delivery path understandable enough that users can see where things come from and how updates are discovered.
+Zama Store is an Android-first store client that leans on public sources instead of hiding everything behind a private service layer. The app pulls catalog data from public JSON, resolves releases from GitHub, GitLab, and Codeberg, and keeps the delivery path understandable enough that users can see where things come from and how updates are discovered.
 
-This repository is the client application itself. The live catalog, configuration, notices, and release metadata used by the app are maintained separately in [RookieEnough/Orion-Data](https://github.com/RookieEnough/Orion-Data), which keeps the UI and the store data cleanly separated.
+This repository is the client application itself. The live catalog, configuration, notices, and release metadata used by the app are maintained separately in [uzamapg/Zama-Data](https://github.com/uzamapg/Zama-Data), which keeps the UI and the store data cleanly separated.
 
-> Orion is built for people who care where software comes from, not just how quickly it downloads.
+> Zama is built for people who care where software comes from, not just how quickly it downloads.
 
 At a glance:
 
@@ -101,16 +108,16 @@ At a glance:
 - Native install, update, and security tooling
 - Skip Android's 24-hour unverified-app wait with built-in wireless install
 
-## What makes Orion different :sparkles:
+## What makes Zama different :sparkles:
 
-The point of Orion is not to pretend infrastructure does not exist. It is to reduce hidden infrastructure and move as much of the important behavior as possible into public, inspectable layers. Catalog entries are plain data. Release sources stay visible. Automation is handled through workflows and workers that can be reviewed, rather than through a black-box backend that users have to trust on faith.
+The point of Zama is not to pretend infrastructure does not exist. It is to reduce hidden infrastructure and move as much of the important behavior as possible into public, inspectable layers. Catalog entries are plain data. Release sources stay visible. Automation is handled through workflows and workers that can be reviewed, rather than through a black-box backend that users have to trust on faith.
 
-That design carries through the app. Orion tracks installed packages, surfaces updates, manages download state, installs natively, and exposes developer-facing diagnostics for people who want to see what the store is actually doing under the hood.
+That design carries through the app. Zama tracks installed packages, surfaces updates, manages download state, installs natively, and exposes developer-facing diagnostics for people who want to see what the store is actually doing under the hood.
 
 ## Feature atlas :compass:
 
 <p align="center">
-  <img src="assets/features-pill.svg" width="520" alt="Orion Store features">
+  <img src="assets/features-pill.svg" width="520" alt="Zama Store features">
 </p>
 
 <table>
@@ -118,7 +125,7 @@ That design carries through the app. Orion tracks installed packages, surfaces u
     <td width="50%" valign="top">
       <img src="assets/feature-release.svg" width="55" alt="Release intelligence icon"><br>
       <strong>Release intelligence</strong><br>
-      Orion reads public metadata, resolves upstream releases, and keeps source provenance visible instead of burying it behind a store-owned backend. It reads your device architecture and recommends the right APK.<br><br>
+      Zama reads public metadata, resolves upstream releases, and keeps source provenance visible instead of burying it behind a store-owned backend. It reads your device architecture and recommends the right APK.<br><br>
       <code>Public JSON</code> <code>Mirrors</code> <code>Multi-source parsing</code> <code>ABI detection</code>
     </td>
     <td width="50%" valign="top">
@@ -173,7 +180,7 @@ That design carries through the app. Orion tracks installed packages, surfaces u
     <td width="25%" align="center"><img src="assets/screenshots/home.jpg?v=2" alt="Storefront" width="100%"><br><sub>Storefront</sub></td>
     <td width="25%" align="center"><img src="assets/screenshots/detail.jpg?v=2" alt="App details" width="100%"><br><sub>App details</sub></td>
     <td width="25%" align="center"><img src="assets/screenshots/myapps.jpg?v=2" alt="My Apps" width="100%"><br><sub>My Apps</sub></td>
-    <td width="25%" align="center"><img src="assets/screenshots/xtra.jpg?v=2" alt="Orion Xtra" width="100%"><br><sub>Orion Xtra</sub></td>
+    <td width="25%" align="center"><img src="assets/screenshots/xtra.jpg?v=2" alt="Zama Xtra" width="100%"><br><sub>Zama Xtra</sub></td>
   </tr>
   <tr>
     <td width="25%" align="center"><img src="assets/screenshots/profile.jpg?v=2" alt="Pilot profile" width="100%"><br><sub>Pilot profile</sub></td>
@@ -197,20 +204,20 @@ That design carries through the app. Orion tracks installed packages, surfaces u
 
 ## Official Developer Badges :trophy:
 
-If you are a developer, you can promote that your application is hosted on Orion Store by adding our official badge to your repository's readme or your product website.
+If you are a developer, you can promote that your application is hosted on Zama Store by adding our official badge to your repository's readme or your product website.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RookieEnough/Orion-Store/refs/heads/main/assets/orion-badge.png" alt="Get it on Orion Store" height="60">
+  <img src="https://raw.githubusercontent.com/uzamapg/Zama-Store/refs/heads/main/assets/orion-badge.png" alt="Get it on Zama Store" height="60">
 </p>
 
 ### How to Get Your Badge Integration Link:
-1. **Submit Your App**: Submit your application to the Orion Store via this client or our repository submission form.
-2. **Enable Developer Mode**: Once approved and live in the store, open Orion Store and tap the **Orion Store** title in the header 7 times to unlock Developer Mode.
+1. **Submit Your App**: Submit your application to the Zama Store via this client or our repository submission form.
+2. **Enable Developer Mode**: Once approved and live in the store, open Zama Store and tap the **Zama Store** title in the header 7 times to unlock Developer Mode.
 3. **Copy Integration Code**: Open your app's detail page, expand **Developer Deep Links**, and copy the **Markdown Badge** for your repository's README or the **HTML Badge** for your website.
 
 ## How the project is structured :card_file_box:
 
-Orion Store 2.0 is a single-activity Jetpack Compose app in MVVM style. A tour of the code lives in [ARCHITECTURE.md](ARCHITECTURE.md).
+Zama Store 2.0 is a single-activity Jetpack Compose app in MVVM style. A tour of the code lives in [ARCHITECTURE.md](ARCHITECTURE.md).
 
 <table>
   <tr>
@@ -218,15 +225,15 @@ Orion Store 2.0 is a single-activity Jetpack Compose app in MVVM style. A tour o
     <td><strong>Responsibility</strong></td>
   </tr>
   <tr>
-    <td><code>app/src/main/java/com/orion/store/ui/</code></td>
+    <td><code>app/src/main/java/com/zama/store/ui/</code></td>
     <td>Compose screens, the theme and motion system, and <code>MainViewModel</code>, which orchestrates loading, downloads, installs and overlays</td>
   </tr>
   <tr>
-    <td><code>app/src/main/java/com/orion/store/data/</code></td>
+    <td><code>app/src/main/java/com/zama/store/data/</code></td>
     <td>Catalog processing, persisted settings and data stores, version logic, XP and levels</td>
   </tr>
   <tr>
-    <td><code>app/src/main/java/com/orion/store/platform/</code></td>
+    <td><code>app/src/main/java/com/zama/store/platform/</code></td>
     <td>Package tracking, the download service, Shizuku and wireless ADB installs, VirusTotal, and the 1.x data carry-over</td>
   </tr>
   <tr>
@@ -275,7 +282,7 @@ npm run dev
 
 ## Data, workers, and automation :robot:
 
-Orion is best understood as backend-light rather than backend-free. The catalog and remote configuration are public, but the project still uses a few narrow pieces of infrastructure where they make sense: Cloudflare worker code for leaderboard relay, image proxying, delta aggregation, submission handling and Sentinel support lives in `Orion Legacy/workers/`, and automation runs through GitHub Actions here and in Orion-Data.
+Zama is best understood as backend-light rather than backend-free. The catalog and remote configuration are public, but the project still uses a few narrow pieces of infrastructure where they make sense: Cloudflare worker code for leaderboard relay, image proxying, delta aggregation, submission handling and Sentinel support lives in `Orion Legacy/workers/`, and automation runs through GitHub Actions here and in Zama-Data.
 
 That split is intentional. The app stays focused on the client, while the data and automation layers remain separately inspectable.
 
@@ -289,8 +296,8 @@ Start with [ARCHITECTURE.md](ARCHITECTURE.md), then `ui/MainViewModel.kt`, `data
 
 The project lives across a few public surfaces:
 
-- `Website`: [orionstore.pages.dev](https://orionstore.pages.dev)
-- `Orion-Data`: [github.com/RookieEnough/Orion-Data](https://github.com/RookieEnough/Orion-Data)
+- `Website`: [github.com/uzamapg/Zama-Store](https://github.com/uzamapg/Zama-Store)
+- `Zama-Data`: [github.com/uzamapg/Zama-Data](https://github.com/uzamapg/Zama-Data)
 - `Discord`: [discord.com/invite/CrM6y4ujnq](https://discord.com/invite/CrM6y4ujnq)
 - `Ko-fi`: [ko-fi.com/rookie_z](https://ko-fi.com/rookie_z)
 - `PayPal`: [paypal.me/RookieEnough](https://paypal.me/RookieEnough)
@@ -299,5 +306,5 @@ The project lives across a few public surfaces:
 ---
 
 <p align="center">
-  Made with 💜 by <strong>RookieZ</strong>
+  Made with 💜 by <strong>Zama</strong>
 </p>

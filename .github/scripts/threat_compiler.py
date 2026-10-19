@@ -61,7 +61,7 @@ def fetch_archive_source():
     return all_hashes
 
 def run():
-    print("🛡️ Orion Sentinel Compiler (v1.0)")
+    print("🛡️ Zama Sentinel Compiler (v1.0)")
     
     # 1. Fetch Data
     tf_hashes = fetch_simple_source("ThreatFox", THREATFOX_URLS)
@@ -99,7 +99,7 @@ def run():
     # Manual Test Keys (EICAR, etc)
     manual = [
         ("275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f", "EICAR-Test"),
-        ("5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8", "Orion-Test"),
+        ("5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8", "Zama-Test"),
     ]
     for h, n in manual:
         if h not in processed_hashes:

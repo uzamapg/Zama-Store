@@ -30,7 +30,7 @@ jobs:
         env:
           KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
         run: |
-          echo "$KEYSTORE_BASE64" | base64 -d > orion-release.keystore
+          echo "$KEYSTORE_BASE64" | base64 -d > zama-release.keystore
 
       - name: Create keystore.properties
         env:
@@ -39,7 +39,7 @@ jobs:
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
           cat > keystore.properties << EOF
-          storeFile=orion-release.keystore
+          storeFile=zama-release.keystore
           storePassword=$KEYSTORE_PASSWORD
           keyAlias=$KEY_ALIAS
           keyPassword=$KEY_PASSWORD
@@ -53,5 +53,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: orion-store-release-apk
+          name: zama-store-release-apk
           path: app/build/outputs/apk/release/*.apk

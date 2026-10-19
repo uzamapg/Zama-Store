@@ -1,5 +1,5 @@
 -keepattributes *Annotation*, InnerClasses
--keepclassmembers @kotlinx.serialization.Serializable class com.orion.store.** { *** Companion; kotlinx.serialization.KSerializer serializer(...); }
+-keepclassmembers @kotlinx.serialization.Serializable class com.zama.store.** { *** Companion; kotlinx.serialization.KSerializer serializer(...); }
 -keep class rikka.shizuku.** { *; }
 # Wireless ADB: libadb looks up Conscrypt by reflection, spake2 is JNI
 -keep class org.conscrypt.** { *; }

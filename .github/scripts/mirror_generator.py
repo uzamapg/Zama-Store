@@ -32,7 +32,7 @@ def minify_release(release, fetch_sizes=False):
     THIN MIRROR PROTOCOL
     --------------------
     Strips 90% of unused metadata (author info, node_ids, tree urls, etc.)
-    Returns a lightweight dict compatible with the Orion Frontend schema.
+    Returns a lightweight dict compatible with the Zama Frontend schema.
     """
     if not isinstance(release, dict): return release
     
@@ -95,7 +95,7 @@ def generate_mirror():
     else:
         print("⚠️ No GH_TOKEN. Running in unauthenticated mode (60 req/hr limit).")
 
-    gh_headers["User-Agent"] = "OrionStore-Nuclear/1.1"
+    gh_headers["User-Agent"] = "ZamaStore-Nuclear/1.1"
 
     if not os.path.exists(APPS_FILE):
         print(f"❌ Error: {APPS_FILE} not found.")

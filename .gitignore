@@ -1,4 +1,4 @@
-# Android · Orion Store 2.0 (native)
+# Android · Zama Store 2.0 (native)
 .gradle/
 .kotlin/
 build/
@@ -29,7 +29,7 @@ yarn-debug.log*
 yarn-error.log*
 .vscode/
 
-# Data files (managed in the Orion-Data repo)
+# Data files (managed in the Zama-Data repo)
 apps.json
 config.json
 mirror.json

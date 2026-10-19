@@ -7,5 +7,5 @@ dependencyResolutionManagement {
         maven("https://jitpack.io") { content { includeGroupByRegex("com\\.github\\.MuntashirAkon.*") } }
     }
 }
-rootProject.name = "Orion-RE"
+rootProject.name = "Zama-Store"
 include(":app")

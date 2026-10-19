@@ -1,6 +1,6 @@
 
 /*
- * ORION DATA - DEEP DIVE APK HUNTER (V17.0 - CLEAN EDITION)
+ * ZAMA DATA - DEEP DIVE APK HUNTER (V17.0 - CLEAN EDITION)
  * -------------------------------------------------------
  * Strategies for: APKDone, AN1, Direct
  */
